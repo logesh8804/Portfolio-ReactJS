@@ -18,19 +18,10 @@ export default function Home()
 
     return (
         <section className='min-h-screen flex flex-col lg:flex-row items-center justify-center bg-primary px-4 sm:px-6 lg:px-8 pt-20 pb-8'>
-            {/* <div className='lg:w-1/2 flex justify-center lg:justify-center mt-6 lg:mt-0'>
-                <div className='relative'>
-                    <img 
-                        className='w-full max-w-sm sm:max-w-md lg:max-w-lg xl:max-w-xl rounded-full shadow-2xl' 
-                        src={HeroImg} 
-                        alt="Logesh - Frontend Developer"
-                    />
-                </div>
-            </div> */}
             <div className='lg:w-1/2 flex justify-center lg:justify-center mt-6 lg:mt-0'>
                 <div className='relative'>
                     <img 
-                        className='w-60 h-60 sm:w-66 sm:h-66 lg:w-96 lg:h-96 rounded-full shadow-2xl object-cover' 
+                        className='w-60 h-60 sm:w-66 sm:h-66 lg:w-80 lg:h-80 rounded-full shadow-2xl object-cover' 
                         src={HeroImg} 
                         alt="Logesh - Frontend Developer" 
                     />
@@ -39,7 +30,7 @@ export default function Home()
             
             <div className='lg:w-1/2 flex flex-col justify-end space-y-6'>
                 <div className='space-y-3'>
-                    <h1 className='text-white text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-sriracha leading-tight'>
+                    <h1 className='text-white text-3xl sm:text-4xl lg:text-5xl font-sriracha leading-tight'>
                         Hi, <br /> 
                         I'm <span className='text-accent'>Logesh</span>
                     </h1>
