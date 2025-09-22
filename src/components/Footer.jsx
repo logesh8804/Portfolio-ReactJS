@@ -24,12 +24,12 @@ export default function Footer()
 
     return (
         <footer className="bg-secondary border-t border-gray-700">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="max-w-7xl mx-auto px-2 sm:px-3 lg:px-4 py-2">
                 <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
                     <div className="text-center md:text-left">
-                        <h3 className="text-2xl font-bold text-accent font-sriracha">Logesh</h3>
+                        <h3 className="text-2xl font-bold text-accent font-sriracha mb-2">Logesh</h3>
                         <p className="text-gray-400 text-sm">
-                            Frontend Developer | React.js Enthusiast
+                            Frontend Developer | React.js Specialist
                         </p>
                     </div>
                     
@@ -49,7 +49,7 @@ export default function Footer()
                     </div>
                 </div>
                 
-                <div className="border-t border-gray-700 mt-8 pt-6">
+                <div className="border-t border-gray-700 mt-2 pt-1.5">
                     <div className="flex flex-col md:flex-row justify-between items-center space-y-2 md:space-y-0">
                         <p className="text-gray-400 text-sm">
                             &copy; {currentYear} Logesh. All rights reserved.
