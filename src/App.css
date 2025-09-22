@@ -1,0 +1,145 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: Sriracha;
+  src: url("../src/assets/fonts/Sriracha-Regular.ttf");
+}
+
+@theme
+{
+  --font-sriracha : Sriracha, "san-serief"
+}
+
+/* Custom Color Scheme - Navy Blue & Vibrant Teal */
+:root {
+  --primary-navy: #0f172a;      /* Deep navy blue */
+  --secondary-navy: #1e293b;    /* Lighter navy */
+  --accent-teal: #06b6d4;       /* Vibrant teal */
+  --accent-teal-light: #67e8f9; /* Light teal */
+  --text-light: #f8fafc;        /* Light text */
+  --text-gray: #94a3b8;         /* Gray text */
+}
+
+header ul li 
+{
+  @apply px-5;
+}
+
+.bg-primary
+{
+  background: linear-gradient(135deg, var(--primary-navy) 0%, var(--secondary-navy) 100%);
+}
+
+.bg-secondary
+{
+  background: linear-gradient(135deg, var(--secondary-navy) 0%, var(--primary-navy) 100%);
+}
+
+.bg-accent
+{
+  background: linear-gradient(135deg, var(--accent-teal) 0%, var(--accent-teal-light) 100%);
+}
+
+.text-accent
+{
+  color: var(--accent-teal);
+}
+
+.border-accent
+{
+  border-color: var(--accent-teal);
+}
+
+.mobile-nav
+{
+  @apply fixed top-16 left-0 w-full h-fit z-50;
+  background: linear-gradient(135deg, var(--primary-navy) 0%, var(--secondary-navy) 100%);
+  backdrop-filter: blur(10px);
+}
+
+.mobile-nav li
+{
+  @apply w-full h-16 text-center border-b border-gray-600 py-4 flex items-center justify-center text-white;
+  transition: all 0.3s ease;
+}
+
+.mobile-nav li:hover
+{
+  background: var(--accent-teal);
+  color: var(--primary-navy);
+}
+
+.project-desc
+{
+  @apply absolute left-0 right-0 bottom-0 top-0 opacity-0 duration-500 hover:opacity-100;
+  background: linear-gradient(135deg, rgba(15, 23, 42, 0.95) 0%, rgba(6, 182, 212, 0.95) 100%);
+  backdrop-filter: blur(5px);
+}
+
+.btn
+{
+  @apply px-6 py-3 font-bold rounded-lg transition-all duration-300;
+  background: linear-gradient(135deg, var(--accent-teal) 0%, var(--accent-teal-light) 100%);
+  color: var(--primary-navy);
+  border: 2px solid transparent;
+}
+
+.btn:hover
+{
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(6, 182, 212, 0.3);
+  border-color: var(--accent-teal-light);
+}
+
+.btn-outline
+{
+  @apply px-6 py-3 font-bold rounded-lg transition-all duration-300;
+  background: transparent;
+  color: var(--accent-teal);
+  border: 2px solid var(--accent-teal);
+}
+
+.btn-outline:hover
+{
+  background: var(--accent-teal);
+  color: var(--primary-navy);
+  transform: translateY(-2px);
+}
+
+.card
+{
+  @apply rounded-xl p-6 transition-all duration-300;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.card:hover
+{
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px rgba(6, 182, 212, 0.2);
+  border-color: var(--accent-teal);
+}
+
+html
+{
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--primary-navy);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--accent-teal);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-teal-light);
+}
