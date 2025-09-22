@@ -1,4 +1,4 @@
-import ResumeImg from '../assets/Resume.jpg'
+import ResumeImg from '../assets/resume.jpg'
 
 export default function Resume()
 {
