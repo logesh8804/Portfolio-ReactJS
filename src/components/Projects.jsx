@@ -11,7 +11,7 @@ export default function Projects()
             {
                 image : pro1,
                 title: 'Personal Portfolio Website',
-                description : 'A modern, responsive portfolio website built with React.js and Tailwind CSS. Features smooth animations, mobile-first design, and optimized performance.',
+                description : 'A modern, responsive portfolio website built with React.js and Tailwind CSS. Features smooth animations, mobile-first design, and optimized performance. This is the preview of this project.',
                 technologies: ['React.js', 'Tailwind CSS', 'JavaScript', 'Vite'],
                 link : 'https://github.com/logesh8804/Portfolio-ReactJS',
                 demo: '#'
@@ -36,7 +36,7 @@ export default function Projects()
     }
 
     return (
-        <section className="py-12 sm:py-16 lg:py-20 bg-primary text-white" id='projects'>
+        <section className="py-6 sm:py-8 lg:py-10 bg-primary text-white" id='projects'>
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-12">
                     <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">

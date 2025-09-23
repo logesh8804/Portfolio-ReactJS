@@ -19,19 +19,19 @@ export default function About()
     }
 
     return (
-        <section className='py-12 sm:py-16 lg:py-20 bg-secondary' id='about'>
-            <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
-                <div className='text-center mb-12'>
+        <section className='py-8 sm:py-12 lg:py-16 bg-secondary' id='about'>
+            <div className='max-w-6xl mx-auto px-4 sm:px-6 lg:px-8'>
+                <div className='text-center mb-8'>
                     <h1 className='text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4'>
                         About <span className='text-accent'>Me</span>
                     </h1>
-                    <div className='w-24 h-1 bg-accent mx-auto mb-6'></div>
+                    <div className='w-24 h-1 bg-accent mx-auto mb-3'></div>
                     <p className='text-lg sm:text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed'>
                         {config.description}
                     </p>
                 </div>
 
-                <div className='lg:grid-cols-2 gap-8 lg:gap-12 items-center flex justify-center'>
+                <div className='lg:grid-cols-2 gap-6 lg:gap-8 items-center flex justify-center'>
                     {/* <div className='order-2 lg:order-1'>
                         <div className='relative'>
                             <img 
@@ -45,11 +45,11 @@ export default function About()
                     <div className='order-1 lg:order-2 space-y-8'>
 
                         <div className='card'>
-                            <h3 className='text-2xl font-bold text-accent mb-6'>Technical Skills</h3>
+                            <h3 className='text-2xl font-bold text-accent mb-2'>Technical Skills</h3>
                             <div className='space-y-6'>
                                 {config.skills.map((skillGroup, index) => (
                                     <div key={index}>
-                                        <h4 className='text-lg font-semibold text-white mb-3'>{skillGroup.category}</h4>
+                                        <h4 className='text-lg font-semibold text-white mb-1'>{skillGroup.category}</h4>
                                         <div className='flex flex-wrap gap-2'>
                                             {skillGroup.items.map((skill, skillIndex) => (
                                                 <span 

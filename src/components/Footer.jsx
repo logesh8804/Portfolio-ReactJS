@@ -29,7 +29,7 @@ export default function Footer()
                     <div className="text-center md:text-left">
                         <h3 className="text-2xl font-bold text-accent font-sriracha mb-2">Logesh</h3>
                         <p className="text-gray-400 text-sm">
-                            Frontend Developer | React.js Specialist
+                            Frontend Developer | React.js Enthusiast
                         </p>
                     </div>
                     
