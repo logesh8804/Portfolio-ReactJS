@@ -3,8 +3,8 @@ import ResumeImg from '../assets/resume.jpg'
 export default function Resume()
 {
     const config = { 
-        link: 'https://drive.google.com/file/d/your-resume-link/view',
-        downloadLink: 'https://drive.google.com/file/d/your-resume-link/download'
+        link: 'https://drive.google.com/file/d/1P19S5NNF7OWPhkCwGLcwK3Oz20_hBFqr/view?usp=drive_link/view',
+        downloadLink: 'https://drive.google.com/file/d/1P19S5NNF7OWPhkCwGLcwK3Oz20_hBFqr/view?usp=drive_link/'
     }
 
     const education = [

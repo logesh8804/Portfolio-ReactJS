@@ -14,7 +14,7 @@ export default function Projects()
                 description : 'A modern, responsive portfolio website built with React.js and Tailwind CSS. Features smooth animations, mobile-first design, and optimized performance. This is the preview of this project.',
                 technologies: ['React.js', 'Tailwind CSS', 'JavaScript', 'Vite'],
                 link : 'https://github.com/logesh8804/Portfolio-ReactJS',
-                demo: '#'
+                demo: 'https://logesh-b-portfolio.vercel.app/'
             },
             {
                 image : pro2,
