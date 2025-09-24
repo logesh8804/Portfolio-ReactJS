@@ -22,7 +22,7 @@ export default function Projects()
                 description : 'Created a responsive Weather App using React.js with real-time API integration. Features include location-based search, dynamic UI updates, and a user-friendly interface for seamless weather forecasts.',
                 technologies: ['React.js', 'HTML', 'CSS', 'Weather API'],
                 link : 'https://github.com/logesh8804/WeatherApp-ReactJS',
-                demo: '#'
+                demo: 'https://weather-app-react-js-gamma.vercel.app/'
             },
             {
                 image : pro3,
