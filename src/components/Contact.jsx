@@ -64,7 +64,7 @@ export default function Contact()
                     <div className="order-2 lg:order-1">
                         <div className="relative">
                             <img 
-                                className="w-115 max-w-lg mx-auto rounded-2xl shadow-2xl" 
+                                className="w-full max-w-lg mx-auto rounded-2xl shadow-2xl" 
                                 src={cme} 
                                 alt="Contact Logesh"
                             />
@@ -82,7 +82,7 @@ export default function Contact()
                                             href={info.link}
                                             target={info.link.startsWith('http') ? '_blank' : '_self'}
                                             rel={info.link.startsWith('http') ? 'noopener noreferrer' : ''}
-                                            className="flex items-center space-x-4 p-2 rounded-lg hover:bg-gray-700 transition-colors duration-300 group"
+                                            className="flex items-center space-x-4 p-4 rounded-lg hover:bg-gray-700 transition-colors duration-300 group"
                                         >
                                             <div className="text-accent group-hover:text-accent-light transition-colors duration-300">
                                                 {info.icon}
@@ -97,9 +97,9 @@ export default function Contact()
                                     ))}
                                 </div>
                             </div>
-
                         </div>
                     </div>
+
                 </div>
             </div>
         </section>
